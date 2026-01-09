@@ -6,7 +6,7 @@ export default function Home() {
   const [modal, setModal] = useState(false);
 
   return (
-    <div>
+    <div className="bg-white">
       <Sidebar open={open} setOpen={setOpen} />
 
       {/* Center area */}
